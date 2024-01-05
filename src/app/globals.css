@@ -1,0 +1,291 @@
+.border {
+  border: 1px solid #eaecf0;
+}
+.border-radius {
+  border-radius: 9px;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.tertiary-title {
+  font-size: 14px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+body {
+  overflow-x: hidden;
+}
+html {
+  overflow-x: hidden;
+}
+.collapse .MuiDialog-paper{
+  max-width: 1200px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+}
+.customDialogueClass .MuiDialog-paper {
+  position: fixed;
+  z-index: 1300;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+  width: 100%;
+}
+.tables {
+  border-radius: 8px;
+  border: 1px solid #eaecf0;
+  box-shadow: 0px 1px 3px #808080a1;
+  margin-bottom: 0px;
+}
+.issueTable{
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid #eaecf0;
+  box-shadow: 0px 1px 3px #808080a1;
+  margin-bottom: 0px;
+}
+.sessionEchart {
+  height: 160px;
+  width: 119%;
+  margin: 0 0 0 -30px;
+}
+.enginDropdown::before{
+  border-bottom: unset !important;
+}
+.custom-dialogue_class .MuiDialog-paper{
+  position: absolute;
+  top: 0;
+  margin: 0;
+  right: 0;
+  max-width: 800px;
+  max-height: 100%;
+  height: 100%;
+}
+.custom-dialogue_class .MuiPaper-elevation3{
+  padding: 20px 20px;
+}
+
+.navbar-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navbar-main-item {
+  color: #344054;
+  display: block;
+  font-weight: 400;
+  text-transform: inherit;
+  line-height: 24.1px;
+  font-size: 16px;
+}
+.active-navbar-main-item {
+  color: #027a48;
+  font-weight: 700;
+}
+.feedback-icon {
+  margin-right: 8px;
+  font-size: 20px;
+  margin-top: 4px;
+}
+.profile-main {
+  flex-grow: 0;
+}
+.profile-main-box {
+  padding: 0px;
+}
+.profile-data-icon {
+  flex-grow: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  padding: 1;
+  margin-left: 2;
+}
+.profile-name-avatar {
+  color: #667085;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #f9fafb;
+  margin-right: 8px;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 3px #80808045;
+}
+.profile-username {
+  font-size: 16px;
+  font-weight: 400;
+  color: #344054;
+}
+.profile-dropdown {
+  margin-left: 8px;
+  font-size: 20px;
+  margin-top: 4px;
+}
+.profile-menu {
+  margin-top: 45px;
+}
+button.navBar-list {
+  color: #344054;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: inherit;
+  background-color: transparent;
+}
+.navbar-active {
+  position: absolute;
+  bottom: -4px;
+  object-fit: fill;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 14px;
+}
+.feedback-main {
+  flex-grow: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  padding: 4px;
+  margin-right: 8px;
+}
+.feedback-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #344054;
+}
+
+.logout-icon {
+  color: #667085;
+  font-size: 18px;
+  margin-right: 13px;
+}
+.menu-text {
+  display: flex;
+  font-weight: 600;
+  color: #667085;
+  align-items: center;
+}
+.logout-text {
+  margin-top: 10px;
+}
+
+button.navBar-list:hover {
+  background-color: transparent;
+}
+
+button.navBar-list.selected::after {
+  content: none;
+}
+
+button.navBar-list:not(.selected):hover::after {
+  content: "";
+  position: absolute;
+  background-image: url("../common/assets//images/issues.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 13px;
+  left: 0;
+  bottom: -4px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.icon-btn .css-av538e-MuiButtonBase-root-MuiIconButton-root:hover {
+  background-color: #fff;
+}
+
+.icon-btn .css-old1by {
+  display: flex;
+}
+
+#menu-appbar .MuiPaper-root {
+  border-radius: 10px !important;
+}
+.filter-search .MuiInputBase-root{
+  border-radius: 8px;
+  padding-right: 13px !important;
+}
+.filter-search .MuiInputBase-input{
+  min-width: 165px !important;
+}
+.dateRange input[type="text"]{
+  padding: 12px 0px 12px 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  outline: none;
+}
+.dateRange img{
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  bottom: -5px;
+  margin: auto;
+  left: 10px;
+}
+.session-search-input .MuiInputBase-input{
+  min-width: 695px !important;
+}
+.session-search-input .MuiAutocomplete-endAdornment button:first-child{
+  display: none !important;
+}
+
+@media screen and (min-width: 1600px) {
+  .sessionEchart .echarts-for-react {
+    width: 102%;
+    margin: 0 0 0 -4%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .sessionEchart .echarts-for-react {
+    width: 118%;
+    margin: 0 0 0 -35px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sessionEchart .echarts-for-react {
+    width: 103%;
+    margin: 0 0 0 -27px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sessionEchart .echarts-for-react {
+    width: 104%;
+    margin: 0 0 0 -4px;
+  }
+  .filter-search{
+      width: 100%;
+  }
+}

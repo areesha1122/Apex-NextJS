@@ -18,13 +18,13 @@ bun dev
 Open http://localhost:3000 in your browser to view the application.
 
 ## Features
-# Auth0 Integration
+### Auth0 Integration
 This project utilizes Auth0 for authentication. Configure Auth0 to secure the application.
 
-# AI Integrated Content
+### AI Integrated Content
 The project features AI integration for content generation and analysis.
 
-# Management
+### Management
 Includes management functionalities for efficient handling of different aspects of the application.
 
 ## Learn More
